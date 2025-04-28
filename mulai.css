@@ -1,0 +1,38 @@
+nav {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ul, 
+li {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 6em;
+
+}
+
+
+
+@media (max-width : 768px){
+    h1 {
+        font-size: 4em;
+    }
+}
+
+@media (max-width : 576px){
+    h1 {
+        font-size: 2em;
+    }
+}
